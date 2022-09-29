@@ -1,4 +1,4 @@
-let n = 10;
+let n = 50; //grid variable
 
 for (let i = 0; i < n; i++) {
   const container = document.querySelector("#container");
@@ -12,9 +12,8 @@ for (let i = 0; i < n; i++) {
   } //creates an n by n grid
 }
 
-
 const square = document.querySelectorAll(".col");
 square.forEach(event => {
   event.addEventListener("mouseover", () =>{
     event.classList.add("filled");
-  })});
+  })}); //mouse-over adds fill in class to cols
