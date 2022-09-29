@@ -10,16 +10,44 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+#clear-button{
+  color: darkred;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+p{
+  font-size: 22px;
+}
+
+button{
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+button:hover{
+  background-color: grey;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #container {
-    border: 6px solid ;
+    border: 6px solid darkolivegreen;
     height: 600px;
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    border-radius: 3px;
   }
   
   .row {
