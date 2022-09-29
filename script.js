@@ -15,11 +15,11 @@ for (let i = 0; i < n; i++) {
 
 const square = document.querySelectorAll(".col");
 square.forEach(event => {
-  event.addEventListener("click", sike);
+  event.addEventListener("mouseover", fillIn);
 })
 
 
-function sike(){
-  console.log("yo");
-  alert("yoo");
+function fillIn(){
+  const col = document.querySelector(".col");
+  col.classList.add("filled");
 }
