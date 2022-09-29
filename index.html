@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Etch-a-Sketch</title>
+    <title>Sketch Pad</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="main-div">
-        <div id="left-hud">
-            <p>Welcome to the sketch pad! Simply hover your mouse over the square to draw. </p>
-            <div id="pixel-spacing">
-                <p>Click below to adjust the pixel spacing on the pad:</p>
-                <button onclick="newGrid()">Grid Size</button>
+    <div id="wrapper">
+        <div id="title">Ogg's Sketch Pad</div>
+        <div id="main-div">
+            <div id="left-hud">
+                <p>Welcome to the sketch pad! Simply hover your mouse over the square to draw. </p>
+                <div id="pixel-spacing">
+                    <p>Click below to adjust the pixel spacing on the pad:</p>
+                    <button onclick="newGrid()">Grid Size</button>
+                </div>
+                <div id="clear-pad">
+                    <p>Clear pad:</p>
+                    <button id="clear-button" onclick="clearGrid()">X</button>
+                </div>
             </div>
-            <div id="clear-pad">
-                <p>Clear pad:</p>
-                <button id="clear-button" onclick="clearGrid()">X</button>
-            </div>
-            
-
+            <div id="container"></div>
         </div>
-        <div id="container"></div>
-    </div>
-    
-    
+    </div>    
 </body>
 </html>
 
