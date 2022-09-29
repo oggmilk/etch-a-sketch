@@ -1,5 +1,5 @@
 #wrapper{
-  background-color: whitesmoke;
+  background-color: grey;
   height: 100vh;
   margin: -23px;
 }
@@ -62,6 +62,7 @@ button:hover{
     justify-content: center;
     flex-shrink: 0;
     border-radius: 3px;
+    background-color: white;
   }
   
   .row {
