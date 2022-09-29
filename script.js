@@ -1,4 +1,4 @@
-let n = 100;
+let n = 5;
 
 for (let i = 0; i < n; i++) {
   const container = document.querySelector("#container");
@@ -10,4 +10,16 @@ for (let i = 0; i < n; i++) {
     col.classList.add("col");
     row.appendChild(col);
   } //creates an n by n grid
+}
+
+
+const square = document.querySelectorAll(".col");
+square.forEach(event => {
+  event.addEventListener("click", sike);
+})
+
+
+function sike(){
+  console.log("yo");
+  alert("yoo");
 }
