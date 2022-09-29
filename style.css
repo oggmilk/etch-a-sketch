@@ -1,5 +1,7 @@
 #wrapper{
   background-color: whitesmoke;
+  height: 100vh;
+  margin: -23px;
 }
 
 #title{
@@ -7,6 +9,7 @@
   font-family:'Times New Roman', Times, serif;
   font-size: 40px;
   margin: 20px;
+  padding-top: 20px;
 }
 
 #main-div{
