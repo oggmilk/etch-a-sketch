@@ -1,4 +1,4 @@
-let n = 5;
+let n = 10;
 
 for (let i = 0; i < n; i++) {
   const container = document.querySelector("#container");
@@ -15,11 +15,6 @@ for (let i = 0; i < n; i++) {
 
 const square = document.querySelectorAll(".col");
 square.forEach(event => {
-  event.addEventListener("mouseover", fillIn);
-})
-
-
-function fillIn(){
-  const col = document.querySelector(".col");
-  col.classList.add("filled");
-}
+  event.addEventListener("mouseover", () =>{
+    event.classList.add("filled");
+  })});
