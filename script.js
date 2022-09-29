@@ -9,5 +9,5 @@ for (let i = 0; i < n; i++) {
     const col = document.createElement("div");
     col.classList.add("col");
     row.appendChild(col);
-  } //creates and n by n grid
+  } //creates an n by n grid
 }

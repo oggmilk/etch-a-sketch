@@ -1,0 +1,18 @@
+#container {
+    border: 6px solid ;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+  }
+  
+  .col {
+    border: 0.000005px solid blue;
+    flex: 1;
+  }
