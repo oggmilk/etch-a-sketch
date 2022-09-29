@@ -1,4 +1,4 @@
-let n = 50; //grid variable
+let n = 5;
 
 for (let i = 0; i < n; i++) {
   const container = document.querySelector("#container");
