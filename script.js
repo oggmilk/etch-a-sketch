@@ -19,12 +19,17 @@ function createGrid(numberOfSquares){
 }
 
 function newGrid(){
-  let numberOfSquares = prompt("enter:");
-  const removeRow = document.querySelectorAll(".row");
-  removeRow.forEach(row => {
-    row.remove();
-  });
-  createGrid(numberOfSquares);
+  let numberOfSquares = prompt("Please enter a value between 1 & 100:");
+  
+  if(numberOfSquares > 100 || numberOfSquares < 1 || isNaN(numberOfSquares)){
+    let numberOfSquares = prompt("Number between 1 & 100 not inputted. Please try again:");
+  }else{
+    const removeRow = document.querySelectorAll(".row");
+    removeRow.forEach(row => {
+      row.remove();
+    });
+    createGrid(numberOfSquares);
+}
 } //erases old grid and creates new grid sized off user input
 
 createGrid(16); //default grid
