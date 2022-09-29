@@ -1,3 +1,17 @@
+#main-div{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#left-hud{
+  text-align: center;
+  background-color: #B0B0B0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 #container {
     border: 6px solid ;
     height: 600px;
@@ -5,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 0;
   }
   
   .row {
